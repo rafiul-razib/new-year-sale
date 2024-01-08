@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@400;900&display=swap');
 
 
-*{
+*{  
     margin: 0;
     padding: 0;
     /* font-family: 'Inter', sans-serif; */
@@ -9,13 +9,14 @@
 }
 
 header .banner{
-    background-image: url('../resources/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     width: 82.5%;
     max-width: 1320px;
-    margin: 60px auto;
+    margin: 72px auto;
+    border-radius: 16px;
 }
 
 
@@ -35,3 +36,106 @@ header .banner .banner-text{
     font-size: 26.4px;
     font-weight: 400;
 }
+
+header .discount{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.discount h1{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 72.6px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 48px;
+}
+
+.discount p{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.discount h2{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.happy-new-year{
+    width: 82.5%;
+    max-width: 662px;
+    margin: 0 auto;
+    padding: 48px 212px 120px;
+}
+
+.happy-new-year img{
+    width: 100%;
+}
+
+.banner-2{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../resources/Vectorrr.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0px auto;
+    border-radius: 16px;
+}
+
+.banner-2-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 46px 120px;
+}
+
+.banner-2-text{
+    color: #fff;
+    max-width: 65%;
+}
+
+.banner-2-text h1{
+    font-size: 53px;
+    font-weight: 900;
+    line-height: 73px;
+    margin-bottom: 24px;
+}
+
+.banner-2-text p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 166.667% */
+}
+
+.banner-2-img{
+    width: 100%;
+    max-width: 264px;
+}
+
+#btn-join-now{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
