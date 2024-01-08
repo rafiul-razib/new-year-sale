@@ -1,3 +1,37 @@
-h1{
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather:wght@400;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Merriweather', serif;
+}
+
+header .banner{
+    background-image: url('../resources/Banner\ Image.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 60px auto;
+}
+
+
+
+header .banner .banner-text{
+    color: #fff;
+    text-align: center;
+    padding: 146px 284px;
+}
+
+.banner-text h1{
+    font-size: 59.4px;
+    font-weight: 900;
+}
+
+.banner-text h4{
+    font-size: 26.4px;
+    font-weight: 400;
 }
